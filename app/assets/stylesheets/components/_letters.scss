@@ -1,27 +1,13 @@
 .letters {
+  color: #d8345f;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 44px;
   li {
      display: inline;
-    border: 2px solid #142850;
+    border: 1px solid #d8345f;
     margin: 8px 8px;
     padding: 4px 4px;
   }
 }
-
-// .letters {
-//   padding-left: 0;
-//   font-size: 24px;
-//   list-style: none;
-//   font-family: monospace;
-//   li {
-//     background-color: #3498db;
-//     color: white;
-//     border: 1px solid #2980b9;
-//     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-//     padding: 4px 12px;
-//     display: inline;
-//   }
-// }
