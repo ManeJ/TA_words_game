@@ -1,13 +1,27 @@
+// .letters {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   li {
+//      display: inline;
+//     border: 1px solid #d8345f;
+//     margin: 8px 8px;
+//     padding: 4px 4px;
+//   }
+// }
+
 .letters {
-  color: #d8345f;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 44px;
+  padding-left: 0;
+  font-size: 24px;
+  list-style: none;
   li {
-     display: inline;
-    border: 1px solid #d8345f;
-    margin: 8px 8px;
-    padding: 4px 4px;
+    background-color: #e62a76;
+    color: #fbb901;
+    border: 1px solid #fbb901;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 8px 5px;
+    display: inline;
+    border-radius: 50%;
   }
 }

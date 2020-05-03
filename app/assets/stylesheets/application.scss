@@ -13,7 +13,19 @@
 @import "pages/index";
 
 h1 {
-  color: #588da8;
-  font-size: 48px;
+  color: #35d0ba;
 }
 
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #35d0ba;
+  font-size: 36px;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.content {
+  background-color: #b643cd;
+  height: 100vh;
+}
